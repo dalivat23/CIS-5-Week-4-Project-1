@@ -29,10 +29,19 @@ int main() {
   cout << "What is your current GPA? ";
   cin >> gpa;
 
+  int grad_year = CURRENT_YEAR + 4;
+
+ cout << "\n====== STUDENT CARD ======\n"
+ "Name: " << firstn << "\n"
+ "Age: " << age << "\n"
+ "Credits: " << credits << "\n"
+ "GPA: " << gpa << "\n"
+ "Expected Graduation: " << grad_year << "\n"
+ "==========================\n";
   
   
-  
-  cout << "tests " << firstn << " " << age << " " << credits << " " << gpa << " ";
+  // Test line to confirm data was being properly stored 
+  // cout << "tests " << firstn << " " << age << " " << credits << " " << gpa << " ";
   // TODO (week 3): declare and initialize the four boxes
   //   first (std::string), age (int), credits (int), gpa (double)
 
