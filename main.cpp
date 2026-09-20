@@ -1,11 +1,17 @@
 #include <iostream>
 #include <string>
 
+using std::cout;
+using std::cin;
+using std::string;
+
 // Project 1 — Tristan Daliva
 // CIS 5 Week 04 · Student card
 
 int main() {
   const int CURRENT_YEAR = 2026;
+
+
 
   // TODO (week 3): declare and initialize the four boxes
   //   first (std::string), age (int), credits (int), gpa (double)
